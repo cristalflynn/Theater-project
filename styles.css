@@ -1,0 +1,142 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+.background{
+    z-index: -1;
+    width: 100%;
+    margin-top: -100px;
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+
+.flexbox-item-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.flexbox-item-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.sun{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    margin-right: 100px;
+}
+.main{
+    display: flex;
+}
+.flexbox-item-3{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: roboto;
+    
+}
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+hr{
+    flex-grow: 1;
+}
+.container{
+    display: flex;
+    flex: 1;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+
+}
+
+.maping {
+    width: 250px;
+}
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+margin-left: auto;
+}
+
+a{
+    color: white;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+.showfeats {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px black,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+                  margin-top: -300px;
+}
+.top-date{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
